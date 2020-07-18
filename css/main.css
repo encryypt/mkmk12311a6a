@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+header{
+    background-image: url(../background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 19px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: #fff solid;
+    border-radius: 16px;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.main {
+    max-width: 1590px;
+    margin: auto;
+}
+.main2 {
+    float: left;
+    margin: auto;
+}
+
+
+
+.button1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-130%,-200%);
+}
+
+.btn1{
+    border: 1px solid #fff;
+    border-radius: 13px;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn1:hover{
+    background-color: #fff;
+    color: #000; 
+}
+.button2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-12%,-200%);
+}
+
+.btn2{
+    border: 1px solid #fff;
+    border-radius: 13px;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn2:hover{
+    background-color: #fff;
+    color: #000; 
+}
